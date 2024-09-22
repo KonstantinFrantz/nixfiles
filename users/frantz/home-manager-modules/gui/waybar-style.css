@@ -1,0 +1,109 @@
+* {
+  border: none;
+}
+
+window#waybar {
+  background: transparent;
+}
+
+tooltip {
+  color: black;
+  background-color: rgba(10, 10, 10, 0.5);
+  border-radius: 10px;
+}
+
+#cpu,
+#memory,
+#temperature,
+#tray,
+#clock,
+#battery,
+#pulseaudio,
+#network,
+#workspaces,
+#backlight,
+#window {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+#workspaces {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-left: 5px;
+  border-radius: 10px;
+}
+
+#workspaces button {
+  color: white;
+  opacity: 0.7;
+  margin: 0px 0 0 0px;
+  padding: 0px 9px;
+  transition: all 0.5s ease-in-out;
+}
+
+#workspaces button.active {
+  color: lightgrey;
+  opacity: 1;
+  background-color: rgba(80, 80, 80, 0.4);
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+#clock {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 2px 8px 0px 8px;
+}
+
+#network {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 0 8px;
+  margin-right: 5px;
+}
+
+#backlight,
+#cpu {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px 0 0 10px;
+  padding: 0 8px;
+  min-width: 40px;
+  border-right: none;
+}
+
+#pulseaudio,
+#memory {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0 10px 10px 0;
+  padding: 0 8px;
+  min-width: 50px;
+  border-left: none;
+}
+
+#temperature,
+#tray {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-left: 5px;
+  padding: 0 8px;
+  border-radius: 10px;
+  border-right: none;
+}
+
+#battery {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-left: 5px;
+  margin-right: 3px;
+  padding: 0 10px;
+  border-radius: 10px;
+}
+
+#battery.plugged {
+  transition: all 1s ease-in-out;
+  background: radial-gradient(rgba(33, 234, 150, 0.5), transparent);
+}
