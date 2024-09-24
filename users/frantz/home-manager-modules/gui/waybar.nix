@@ -7,7 +7,7 @@
       mainBar = {
         start_hidden = true;
         layer = "top";
-        position = "bottom";
+        position = "top";
         height = 0;
         modules-left = [
           "hyprland/workspaces"

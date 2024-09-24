@@ -11,7 +11,7 @@
 
       exec-once = [
         "waybar"
-        "[workspace 2] kitty"
+        "[workspace 1] kitty"
         "swww-daemon"
         "swww clear 000000"
       ];
