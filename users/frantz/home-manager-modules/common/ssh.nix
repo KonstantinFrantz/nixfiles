@@ -6,9 +6,6 @@
       "*" = {
         identityFile = "~/.ssh/git";
       };
-      "github.com" = {
-        identityFile = "~/.ssh/git";
-      };
     };
   };
 }

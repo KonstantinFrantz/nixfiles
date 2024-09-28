@@ -5,7 +5,7 @@
     settings = {
       monitor = [
         "eDP-1, 1920x1080@60, 0x0, 1.25"
-        "desc:XMI Redmi Monitor 2804800102242, highrr, auto, 1"
+        "desc:Sharp Corporation LQ156M1JW01, highrr, auto, 1"
         ", preferred, auto, 1"
       ];
 
@@ -28,10 +28,6 @@
         "XDG_SESSION_DESKTOP,Hyprland"
         "XCURSOR_SIZE, 24"
         "HYPRCURSOR_SIZE, 24"
-        # required until https://github.com/ankitects/anki/issues/1767 is closed
-        "ANKI_WAYLAND, 1"
-        # do not set GTK_IM_MODULE
-        "GLFW_IM_MODULE, ibus"
       ];
 
       input = {
