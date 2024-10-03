@@ -12,6 +12,26 @@
     rnote
     imv
     mpv
+    openvpn
+    openvpn3
+    expressvpn
+    protonvpn-gui
+    sshuttle
+    cloak-pt
+    shadowsocks-libev
+    wireguard-tools
+    pptp
+
+    jetbrains.idea-ultimate
+    jetbrains.jdk
+    jetbrains.goland
+    jetbrains.datagrip
+    jetbrains.pycharm-professional
+    jetbrains.clion
+    jetbrains.rider
+    jetbrains.webstorm
+    jetbrains.rust-rover
+    jetbrains.writerside
 
     wl-clipboard
 
