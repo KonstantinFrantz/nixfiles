@@ -12,6 +12,7 @@
     rnote
     imv
     mpv
+    docker
     openvpn
     openvpn3
     expressvpn
@@ -22,8 +23,10 @@
     wireguard-tools
     pptp
 
+    act
     jetbrains.idea-ultimate
-    jetbrains.jdk
+    jdk
+    maven
     jetbrains.goland
     jetbrains.datagrip
     jetbrains.pycharm-professional
