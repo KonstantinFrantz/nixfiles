@@ -13,6 +13,7 @@
     imv
     mpv
     docker
+    awscli2
     openvpn
     openvpn3
     sshuttle
