@@ -1,0 +1,14 @@
+[K[Kbuilding the system configuration...
+[K[Kstopping the following units: docker.service, docker.socket, systemd-modules-load.service, systemd-sysctl.service
+NOT restarting the following changed units: -.mount, systemd-fsck@dev-disk-by\x2duuid-88C5\x2dBEBB.service
+activating the configuration...
+reviving group 'podman' with GID 995
+removing group ‘docker’
+removing group ‘wireshark’
+setting up /etc...
+restarting systemd...
+reloading user units for frantz...
+restarting sysinit-reactivation.target
+reloading the following units: dbus.service, firewall.service
+restarting the following units: boot.mount, home-manager-frantz.service, polkit.service
+starting the following units: systemd-modules-load.service, systemd-sysctl.service
