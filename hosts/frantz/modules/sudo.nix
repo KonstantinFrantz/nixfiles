@@ -1,10 +1,10 @@
-{pkgs, ...}: {
+{
   security.sudo.extraRules = [
     {
       users = ["frantz"];
       commands = [
         {
-          command = "${pkgs.wireguard-tools}/bin/wg-quick";
+          command = "/run/current-system/sw/bin/awg-quick";
           options = ["NOPASSWD"];
         }
       ];
