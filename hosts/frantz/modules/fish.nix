@@ -1,4 +1,5 @@
 {
+  programs.command-not-found.enable = false;
   programs.fish = {
     enable = true;
     shellAbbrs = {
@@ -19,6 +20,26 @@
     shellInit = ''
       set fish_greeting
       fish_vi_key_bindings
+
+      function postexec --on-event fish_postexec
+        echo
+      end
+
+      function fish_mode_prompt
+        switch $fish_bind_mode
+          case default
+            echo '🪄 '
+          case insert
+            echo '💬 '
+          case visual
+            echo '👀 '
+          case replace
+            echo '🔄 '
+          case replace_one
+            echo '🔄 '
+        end
+      end
+
       bind -M insert \cf accept-autosuggestion
       bind \cq 'prevd; commandline -f repaint'
       bind \ce 'nextd; commandline -f repaint'
