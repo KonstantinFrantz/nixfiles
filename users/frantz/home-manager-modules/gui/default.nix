@@ -10,5 +10,6 @@
     ./waybar.nix
     ./spotify.nix
     ./dunst.nix
+    ./battery-notify.nix
   ];
 }
