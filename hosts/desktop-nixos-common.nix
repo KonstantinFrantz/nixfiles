@@ -29,7 +29,7 @@
     ripgrep
     nixos-generators
     brightnessctl
-    
+
     ntfs3g
 
     ipu6-camera-bins
@@ -37,5 +37,7 @@
     linuxKernel.packages.linux_6_11.ipu6-drivers
     wireplumber
     libcamera
+
+    libnotify
   ];
 }
