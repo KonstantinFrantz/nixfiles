@@ -5,7 +5,6 @@
     package = pkgs.waybar;
     settings = {
       mainBar = {
-        start_hidden = true;
         layer = "top";
         position = "top";
         height = 0;

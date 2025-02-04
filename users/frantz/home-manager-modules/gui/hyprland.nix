@@ -12,6 +12,7 @@
       exec-once = [
         "waybar"
         "[workspace 1] kitty"
+        "[workspace 2 silent] google-chrome-stable --enable-wayland-ime"
         "swww-daemon"
         "swww clear 000000"
       ];
