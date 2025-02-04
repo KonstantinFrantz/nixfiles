@@ -20,8 +20,10 @@
       set fish_greeting
       fish_vi_key_bindings
       bind -M insert \cf accept-autosuggestion
-      bind \cq 'prevd; and commandline -f repaint'
-      bind \ce 'nextd; and commandline -f repaint'
+      bind \cq 'prevd; commandline -f repaint'
+      bind \ce 'nextd; commandline -f repaint'
+      bind -M insert \cq 'prevd; commandline -f repaint'
+      bind -M insert \ce 'nextd; commandline -f repaint'
     '';
   };
 }
