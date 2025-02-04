@@ -1,6 +1,7 @@
 {
-  config,
   abs,
+  config,
+  pkgs,
   ...
 }: {
   services.openssh = {
@@ -12,6 +13,7 @@
   };
   programs.ssh.startAgent = true;
   users.users.frantz = {
+    shell = pkgs.fish;
     isNormalUser = true;
     description = "frantz";
     extraGroups = [
