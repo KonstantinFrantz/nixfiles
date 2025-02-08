@@ -39,5 +39,6 @@
     libcamera
 
     libnotify
+    papirus-icon-theme
   ];
 }

@@ -171,6 +171,9 @@
         "$mainMod SHIFT, M,   exit, "
         "$mainMod SHIFT, W,   exec, swww clear 000000"
 
+        #Close all notifications
+        "$mainMod,       N, exec, dunstctl close-all"
+
         "$mainMod, H, movefocus, l"
         "$mainMod, J, movefocus, d"
         "$mainMod, K, movefocus, u"
