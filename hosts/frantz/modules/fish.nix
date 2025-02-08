@@ -16,6 +16,8 @@
       gdss = "git diff --staged --stat";
       gsc = "git switch -c";
       gsm = "git switch master";
+      vu = "vpn up";
+      vd = "vpn down";
     };
     shellInit = ''
       set fish_greeting
