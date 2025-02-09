@@ -42,7 +42,8 @@
         end
       end
 
-      bind -M insert \cf accept-autosuggestion
+      bind -M insert \cg accept-autosuggestion
+      bind -M insert \cf nextd-or-forward-word
       bind \cq 'prevd; commandline -f repaint'
       bind \ce 'nextd; commandline -f repaint'
       bind -M insert \cq 'prevd; commandline -f repaint'
