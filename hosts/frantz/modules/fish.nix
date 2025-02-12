@@ -2,6 +2,7 @@
   programs.command-not-found.enable = false;
   programs.fish = {
     enable = true;
+    loginShellInit = "starship init fish | source";
     shellAbbrs = {
       t = "tmux";
       ta = "tmux a";
