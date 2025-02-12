@@ -9,7 +9,6 @@
     ./tofi.nix
     ./waybar.nix
     ./spotify.nix
-    ./starship.nix
     ./dunst.nix
   ];
 }
