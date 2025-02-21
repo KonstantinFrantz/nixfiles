@@ -21,6 +21,7 @@
       "input"
       "wheel"
       "audio"
+      "docker"
     ];
     openssh.authorizedKeys.keyFiles = [
       (abs "ssh/frantz-git.pub")
