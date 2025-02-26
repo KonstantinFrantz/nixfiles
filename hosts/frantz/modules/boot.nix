@@ -28,6 +28,7 @@
 
   boot.kernelParams = [
     "acpi_osi=Linux"
+    "mem_sleep_default=deep"
   ];
 
   hardware.graphics = {
