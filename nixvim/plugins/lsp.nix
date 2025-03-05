@@ -31,6 +31,7 @@
           };
           lua_ls.enable = true;
           bashls.enable = true;
+          jdtls.enable = true;
           html.enable = true;
           cssls.enable = true;
           eslint.enable = true;
