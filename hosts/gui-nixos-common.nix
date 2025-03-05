@@ -33,6 +33,7 @@
     jetbrains.webstorm
     jetbrains.rust-rover
     jetbrains.writerside
+    android-studio
 
     wl-clipboard
 
