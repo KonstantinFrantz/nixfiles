@@ -66,7 +66,8 @@
       };
 
       cursor = {
-        no_warps = true;
+        warp_on_change_workspace = 1;
+        persistent_warps = true;
       };
 
       decoration = {
@@ -105,7 +106,7 @@
           "border, 1, 10, default"
           "borderangle, 1, 8, default"
           "fade, 1, 7, default"
-          "workspaces, 1, 6, default"
+          "workspaces, 0, 6, default"
         ];
       };
 
