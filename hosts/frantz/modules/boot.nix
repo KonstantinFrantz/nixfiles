@@ -49,5 +49,4 @@
   };
 
   boot.kernelModules = ["i2c-dev" "i2c-piix4"];
-  boot.blacklistedKernelModules = ["kvm-intel"];
 }
