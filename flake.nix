@@ -11,7 +11,6 @@
       url = "github:nix-community/nixvim";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    proxmox-nixos.url = "github:SaumonNet/proxmox-nixos";
   };
   outputs = {
     self,
@@ -46,7 +45,6 @@
             inherit system;
             config = {allowUnfree = true;};
           };
-          currentSystem = system;
         };
     in
       nixpkgs.lib.nixosSystem {
