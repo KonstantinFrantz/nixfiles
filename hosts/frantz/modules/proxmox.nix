@@ -1,7 +1,4 @@
 {
-  config,
-  lib,
-  pkgs,
   inputs,
   currentSystem,
   ...
@@ -12,7 +9,7 @@
 
   services.proxmox-ve = {
     enable = true;
-    ipAddress = "192.168.0.1"; # Измените на нужный IP-адрес
+    ipAddress = "192.168.0.34";
   };
 
   nixpkgs.overlays = [
