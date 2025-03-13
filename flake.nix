@@ -46,6 +46,7 @@
             inherit system;
             config = {allowUnfree = true;};
           };
+          currentSystem = system;
         };
     in
       nixpkgs.lib.nixosSystem {

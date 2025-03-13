@@ -11,6 +11,9 @@
       KbdInteractiveAuthentication = false;
     };
   };
+  services.zerotierone = {
+    enable = true;
+  };
   programs.ssh.startAgent = true;
   users.users.frantz = {
     shell = pkgs.fish;

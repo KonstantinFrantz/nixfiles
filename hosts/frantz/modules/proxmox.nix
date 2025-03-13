@@ -1,6 +1,9 @@
 {
+  config,
+  lib,
+  pkgs,
   inputs,
-  system,
+  currentSystem,
   ...
 }: {
   imports = [
@@ -9,10 +12,10 @@
 
   services.proxmox-ve = {
     enable = true;
-    ipAddress = "192.168.0.34";
+    ipAddress = "192.168.0.1"; # Измените на нужный IP-адрес
   };
 
   nixpkgs.overlays = [
-    inputs.proxmox-nixos.overlays.${system}
+    inputs.proxmox-nixos.overlays.${currentSystem}
   ];
 }
