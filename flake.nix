@@ -11,6 +11,7 @@
       url = "github:nix-community/nixvim";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    proxmox-nixos.url = "github:SaumonNet/proxmox-nixos";
   };
   outputs = {
     self,
