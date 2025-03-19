@@ -45,6 +45,8 @@
 
     pipewire
     pavucontrol
+
+    postman
   ];
   hardware.opentabletdriver.enable = true;
   fonts.packages = with pkgs; [
