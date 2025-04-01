@@ -3,9 +3,9 @@
     enable = true;
     settings = {
       global = {
+        monitor = 2;
         browser = "/run/current-system/sw/bin/google-chrome-stable";
         dmenu = "${pkgs.wofi}/bin/rofi -d";
-        follow = "mouse";
         origin = "bottom-right";
         notification_limit = 3;
         shrink = false;
