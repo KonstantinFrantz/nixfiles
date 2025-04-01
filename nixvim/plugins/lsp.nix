@@ -42,7 +42,7 @@
           gleam.enable = false;
           dockerls.enable = true;
           docker_compose_language_service.enable = true;
-          kotlin-language-server.enable = true;
+          kotlin_language_server.enable = true;
           # disabled for at least until
           # https://github.com/sqls-server/sqls/issues/149 is closed
           sqls.enable = false;
