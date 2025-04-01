@@ -137,6 +137,12 @@
         force_zero_scaling = true;
       };
 
+      workspace = [
+        "1, monitor:eDP-1, default true"
+        "2, monitor:DP-6, default true"
+        "3, monitor:DP-7, default true"
+      ];
+
       windowrulev2 = [
         "rounding 0, xwayland:1"
         "bordersize 1, xwayland:1"
