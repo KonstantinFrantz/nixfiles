@@ -41,5 +41,7 @@
     papirus-icon-theme
 
     nodejs_22
+
+    docker-init
   ];
 }
