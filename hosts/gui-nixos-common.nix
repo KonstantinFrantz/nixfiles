@@ -23,8 +23,6 @@
 
     act
     jetbrains.idea-ultimate
-    jdk
-    maven
     jetbrains.goland
     jetbrains.datagrip
     jetbrains.pycharm-professional
