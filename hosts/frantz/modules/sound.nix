@@ -1,15 +1,17 @@
 {pkgs, ...}: {
   security.rtkit.enable = true;
-  hardware.pulseaudio.enable = false;
 
-  services.pipewire = {
-    enable = true;
-    audio.enable = true;
-    pulse.enable = true;
-
-    alsa = {
+  services = {
+    pulseaudio.enable = false;
+    pipewire = {
       enable = true;
-      support32Bit = true;
+      audio.enable = true;
+      pulse.enable = true;
+
+      alsa = {
+        enable = true;
+        support32Bit = true;
+      };
     };
   };
 
