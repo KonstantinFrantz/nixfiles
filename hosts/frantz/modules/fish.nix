@@ -48,6 +48,8 @@
       bind \ce 'nextd; commandline -f repaint'
       bind -M insert \cq 'prevd; commandline -f repaint'
       bind -M insert \ce 'nextd; commandline -f repaint'
+
+      fish_add_path -m ~/.npm-global/bin
     '';
   };
 }

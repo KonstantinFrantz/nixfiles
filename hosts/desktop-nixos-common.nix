@@ -40,5 +40,7 @@
 
     libnotify
     papirus-icon-theme
+
+    nodejs_22
   ];
 }
