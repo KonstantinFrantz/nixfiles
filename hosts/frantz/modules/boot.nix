@@ -28,7 +28,7 @@
 
   boot.kernelParams = [
     "acpi_osi=Linux"
-    "mem_sleep_default=deep"
+    "kvm.enable_virt_at_load=0"
   ];
 
   hardware.graphics = {
