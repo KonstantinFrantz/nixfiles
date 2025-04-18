@@ -1,4 +1,4 @@
-{ pkgs, ... } : {
+{pkgs, ...}: {
   security.rtkit.enable = true;
   hardware.pulseaudio.enable = false;
 
@@ -15,8 +15,8 @@
 
   systemd.user.services.unmute-on-boot = {
     description = "Unmute audio on boot";
-    wantedBy = [ "default.target" ];
-    after = [ "pipewire.service" ];
+    wantedBy = ["default.target"];
+    after = ["pipewire.service"];
     script = ''
       ${pkgs.alsa-utils}/bin/amixer -c 0 sset Master unmute
     '';
