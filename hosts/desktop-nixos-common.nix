@@ -34,7 +34,6 @@
 
     ipu6-camera-bins
     ipu6epmtl-camera-hal
-    linuxKernel.packages.linux_6_11.ipu6-drivers
     wireplumber
     libcamera
 
