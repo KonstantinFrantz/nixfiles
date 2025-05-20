@@ -45,7 +45,7 @@
 
   hardware.ipu6 = {
     enable = true;
-    platform = "ipu6epmtl";
+    platform = "ipu6ep";
   };
 
   boot.kernelModules = ["i2c-dev" "i2c-piix4"];

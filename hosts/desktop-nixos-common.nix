@@ -32,16 +32,17 @@
 
     ntfs3g
 
-    ipu6-camera-bins
-    ipu6epmtl-camera-hal
-    wireplumber
-    libcamera
-
     libnotify
     papirus-icon-theme
 
     nodejs_22
 
     docker-init
+
+    claude-code
+
+    dex2jar
+    maven
+    zulu23
   ];
 }
