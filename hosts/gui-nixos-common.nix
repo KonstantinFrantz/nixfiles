@@ -45,6 +45,8 @@
     pavucontrol
 
     postman
+
+    obsidian
   ];
   hardware.opentabletdriver.enable = true;
   fonts.packages = with pkgs; [
