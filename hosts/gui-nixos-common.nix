@@ -22,7 +22,7 @@
     amneziawg-tools
 
     act
-    jetbrains.idea-ultimate
+    jetbrains.idea-community
     jetbrains.goland
     jetbrains.datagrip
     jetbrains.pycharm-professional
