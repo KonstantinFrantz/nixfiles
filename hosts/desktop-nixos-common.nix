@@ -43,6 +43,6 @@
 
     dex2jar
     maven
-    zulu23
+    jdk
   ];
 }
